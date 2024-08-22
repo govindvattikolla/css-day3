@@ -1,0 +1,145 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: rgb(0, 0, 0);
+}
+.ludo{
+    width: 750px;
+    height: 750px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    background-color: rgb(249, 249, 249);
+    
+}
+
+.blue,.red,.yellow,.green{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+/*******color***************/
+.blue{
+    background-color:royalblue;
+    border-radius: 10px;
+
+}
+.red{
+    background-color:red;
+    border-radius: 10px;
+
+}
+.yellow{
+    background-color:yellow;
+    border-radius: 10px;
+
+}
+.green{
+    background-color:green;
+    border-radius: 10px;
+
+}
+
+/**************box inside*****************/
+.box{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+
+}
+.box .insidebox{
+    width: 60px;
+    height: 60px;
+    margin:20px;
+    border-radius:50%;
+}
+
+
+/***********color***************/
+.blueFont{
+    color: royalblue;
+
+}
+.redFont{
+    color: red;
+
+}
+.yellowFont{
+    color: yellow;
+}
+.greenFont{
+    color: green;
+}
+
+.blueBackground{
+    background-color: royalblue;
+
+}
+.redBackground{
+    background-color: red;
+}
+.yellowBackground{
+    background-color: yellow;
+}
+.greenBackground{
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+/***********square box****************/
+.square{
+    width: 48px;
+    height: 48px;
+    border:1px solid rgb(77, 74, 74);
+    
+    font-size: 30px;
+    text-align: center;
+}
+
+.squareContainer{
+    display: flex;
+}
+.row{
+    width:750px;
+    height:150px;
+    display: flex;
+    justify-content: space-between;
+}
+.row1{
+    display: flex;
+}
+
+
+/******************ludoCenter***************/
+.ludoCenter{
+    font-size:100px;
+    color:#ffd700;
+    position: absolute;
+    background-color: rgb(52, 52, 58);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    
+
+}

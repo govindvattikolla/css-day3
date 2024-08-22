@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* nav bar styles */
+    .navbar{
+      display: flex;
+      margin-left: 70vw;
+     }
+    .nav{
+      position: fixed;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;  
+      background-color: rgb(239, 242, 242);
+      z-index: 10;
+      height: 60px;
+    }
+    a{
+      margin-right: 15px;
+      font-size: larger;
+      text-decoration: none;
+      color: black;
+    }
+    a:hover {
+      background-color: gray;
+    }
+    .logo:hover {
+      background-color: gray;
+    }
+    .logo{
+      margin-left: 20px;
+      font-size:xx-large; 
+    }
+    /* header part styles */
+    .header {
+      position: relative;
+      border: 2px solid black;
+    }
+    .img1 {
+      width: 98vw;
+      position: absolute;
+    }
+    .text {
+      position: absolute;
+      left: 40%;
+      margin-top: 400px;
+    }
+    .br {
+      background-color: black;
+      padding: 10px;
+      display: inline;
+      color: whitesmoke;
+      font-size: 40px;
+    }
+    .architects {
+      font-size: x-large;
+      color: whitesmoke;
+      font-weight: 900;
+      text-shadow: 2px 3px 2px black;
+      font-size: 40px;
+    }
+    /* projects styles */
+  .projects {
+   position: relative;
+   top: 800px;
+   margin: 20px;
+  }
+  .images {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .image_names {
+    position: absolute;
+    display: flex;
+    
+  }
+  .names{
+    width: 120px;
+    margin-right: 220px;
+    text-align: start;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  /* styles for about */
+  .about {
+    position: relative;
+    top: 860px;
+    margin: 20px;
+    font-size: larger;
+  }
+ .images2 {
+  display: flex;
+  justify-content: space-between;
+ }
+ .images3 {
+  width: 330pxs;
+  padding: 10px;
+ }
+ button {
+  width: 300px;
+  background-color: white;
+  height: 30px;
+ }
+ button:hover {
+  background-color: gray;
+ }
+ /* styles for contact */
+ .contact {
+  position: relative;
+  top: 900px;
+  margin: 20px;
+ }
+ input {
+  width: 100%;
+  height: 30px;
+ }
+.message {
+  background-color: black;
+  color: white;
+}
+.final{
+  width: 96vw;
+  
+}
+/* styles for footer */
+.foot{
+  position: relative;
+  width:50%;
+  height: 100px;
+}
+.footer{
+  position:absolute;
+  top:865px;
+   width: 98vw; 
+  height: 100px;
+  background-color: black;
+}
+.poweredby{
+  position: absolute;
+  color:aliceblue;
+  left:45%;
+
+}
+.w3css{
+  color: aliceblue;
+  
+}
+      
+ 
+    
+</style>
+<body>
+    <!-- Navbar (sit on top) -->
+
+   
+    <div class="nav">
+      <div class="logo">
+        <b>BR</b> Architects   
+      </div>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="navbar">
+        <a href="https://www.w3schools.com/w3css/tryw3css_templates_architect.htm#projects" class="button">Projects</a>
+        <a href="https://www.w3schools.com/w3css/tryw3css_templates_architect.htm#about" class="button">About</a>
+        <a href="https://www.w3schools.com/w3css/tryw3css_templates_architect.htm#contact" class="button">Contact</a>
+          <div>
+            
+          </div>
+      </div>
+    </div>
+  
+  <!-- header part -->
+   <div class="header">
+     <img src="https://www.w3schools.com/w3images/architect.jpg" class="img1">
+      <div class="text">
+        <h1 class="br">BR</h1><span class="architects"> Architects</span>
+      </div>
+   </div> 
+   <!-- projects -->
+
+   <div class="projects">
+      <h1 class="projects_header">Projects</h1><hr>
+      <div class="images">
+        <img src="https://www.w3schools.com/w3images/house5.jpg" alt="" width="330px" >
+        <img src="https://www.w3schools.com/w3images/house2.jpg" alt=""  width="330px">
+        <img src="https://www.w3schools.com/w3images/house3.jpg" alt=""  width="330px">
+        <img src="https://www.w3schools.com/w3images/house4.jpg" alt=""  width="330px">
+            <div class="image_names">
+              <span class="names">Summer House</span>
+              <span class="names">Summer House</span>
+              <span class="names">Renovated House</span>
+              <span class="names">Barn House</span>
+            </div>
+      </div>
+      <div class="images">
+        <img src="https://www.w3schools.com/w3images/house2.jpg" alt=""  width="330px">
+        <img src="https://www.w3schools.com/w3images/house5.jpg" alt=""  width="330px">
+        <img src="https://www.w3schools.com/w3images/house4.jpg" alt=""  width="330px">
+        <img src="https://www.w3schools.com/w3images/house3.jpg" alt="" width="330px">
+        <div class="image_names">
+          <span class="names">Summer House</span>
+          <span class="names">Summer House</span>
+          <span class="names">Renovated House</span>
+          <span class="names">Barn House</span>
+        </div>
+      </div>
+   </div>
+   <!-- about part -->
+
+   <div class="about">
+    <h1>About</h1>
+    <hr>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat at ab ut est dolorem non neque obcaecati! Tenetur illum ipsum, perferendis, inventore itaque est nesciunt repudiandae saepe, eligendi aliquam consectetur.
+    Porro laboriosam veniam non fuga esse reiciendis laborum maxime numquam possimus ut, excepturi facilis necessitatibus. Atque, ipsum odit. Nobis praesentium quia veritatis consequatur iusto, sunt nihil? Sint assumenda deserunt earum.
+    Fugit iure quaerat accusantium, quisquam esse maiores mollitia adipisci dolorem harum deleniti laboriosam at est odio quod repellat expedita unde ullam impedit ipsam ex. Eveniet esse perspiciatis ratione reiciendis consequatur!</p>
+    <div class="images2">
+        <div class="images3">
+          <img src="https://www.w3schools.com/w3images/team2.jpg" alt="" width="330px">
+          <h3>John Doe</h3>
+          <h4>CEO & Founder</h4>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <button>Contact</button>
+        </div>
+        <div class="images3">
+          <img src="https://www.w3schools.com/w3images/team1.jpg" alt="" width="330px">
+          <h3>Jane Doe</h3>
+          <h4>Architect</h4>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <button>Contact</button>
+        </div>
+        <div class="images3">
+          <img src="https://www.w3schools.com/w3images/team3.jpg" alt="" width="330px">
+          <h3>Mike Ross</h3>
+          <h4>Architect</h4>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <button>Contact</button>
+        </div>
+        <div class="images3">
+          <img src="https://www.w3schools.com/w3images/team4.jpg" alt="" width="330px">
+          <h3>Dan Star</h3>
+          <h4>Architect</h4>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <button>Contact</button>
+        </div>
+    </div>
+   </div>
+   <!-- contact part -->
+
+   <div class="contact">
+      <h1>Contact</h1><hr>
+      <p>Lets get in touch and talk about your next project.</p>
+      <input type="text" placeholder="Name"> <br><br>
+      <input type="email" placeholder="Email"> <br><br>
+      <input type="text" placeholder="Subject"><br><br>
+      <input type="text" placeholder="Comment"><br><br>
+      <button class="message">Send Message</button><br><br>
+      <img src="https://www.w3schools.com/w3images/map.jpg" alt="" class="final">
+
+   </div> <br>
+   <!-- footer part -->
+   <div class="foot">
+    <div class="footer">
+      <h4 class="poweredby">powered by <a href="https://www.w3schools.com/w3css/default.asp" class="w3css">w3.css</a></h4>
+    </div>
+   </div>
+   
+   
+    
+</body>
+</html>
